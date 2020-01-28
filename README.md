@@ -13,36 +13,36 @@ Comments in Python are marked by a # sign (for single-line comments) or three ma
 
 Edit README.md to answer the following questions:
 
-- Open main01.py. Before running it, what do you expect this program to do?
-  - Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened.
-  - What do you think the program did with what you typed in answer to the question?
-- Open main02.py. Before running it, describe how this is different than main01.py.
-  - What do you think the color = input() will do?
-  - Run the program in the terminal and answer the question. Did the program do what you expected?
-- Open main03.py. Before running it, describe how this is different than main02.py.
-  - What is happening on lines 9–12?
-  - Why are lines 10 and 12 indented?
-  - Run the program and answer the question. What happens if you don’t capitalize Red?
-  - What does this tell you about "color"?
-- Open main04.py. Before running it, describe how this is different than main03.py.
-  - What problem is this trying to solve?
-  - Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-- Open main05.py. What do you expect line 9 to do?
-  - What problem is it trying to solve?
-  - Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “ RED “ or “ red”)?
- - Open main06.py. How is line 9 different than in main05.py?
-   - What would you guess .strip() is doing?
-   - Run the program and answer the question. Is there another way of writing “red” that will break this logic?
- - Open main07.py. Before running this program, how do you expect this to be different than main06.py?
-   - What is happening on line 12?
-   - Run the program and answer the question.
- - Open main08.py. What is the purpose of line 9?
-   - Why are lines 10–17 indented?
-   - Run the program. What would happen if line 10 were moved before line 9 (and no longer indented)?
+- Open main01.py. Before running it, what do you expect this program to do? I expect this one to have a greeting and ask for favorite color. 
+  - Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. nothing happened it seemed to not want to use the input.
+  - What do you think the program did with what you typed in answer to the question? it didnt do anything with my answer
+- Open main02.py. Before running it, describe how this is different than main01.py. it says what color it is.
+  - What do you think the color = input() will do? it will hopefullly turn my input into a value. 
+  - Run the program in the terminal and answer the question. Did the program do what you expected? it put my asnwer with no way of saying of it was right or wrong. 
+- Open main03.py. Before running it, describe how this is different than main02.py. it seems to actually check for the right answer not just saying mine back.
+  - What is happening on lines 9–12? that is where it checks for answer.
+  - Why are lines 10 and 12 indented? they are intended to show the print command is a response to those other if and ese statements.
+  - Run the program and answer the question. What happens if you don’t capitalize Red? the system tells you its incorrect if you dont cap it.
+  - What does this tell you about "color"? color is caps sensitive.
+- Open main04.py. Before running it, describe how this is different than main03.py. it includes both upper and lower case 4 colors
+  - What problem is this trying to solve? its making sure that yhe answer doesnt need to be case sensitive.
+  - Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)? it works with normal spelling but with weird spelling it is wrong.
+- Open main05.py. What do you expect line 9 to do? it looks at whatever case you used and changes it to lower case.
+  - What problem is it trying to solve? it is trying to keep continuity the same and have it tbe the same no matter how you capitalize it.
+  - Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “ RED “ or “ red”)? it accepts it but you cant put a space before the answer.
+ - Open main06.py. How is line 9 different than in main05.py? it adds the dot strip command 
+   - What would you guess .strip() is doing? it is checking for the correct answer not what you actually put.
+   - Run the program and answer the question. Is there another way of writing “red” that will break this logic? this seems to fix it and im not sure how to break it now.
+ - Open main07.py. Before running this program, how do you expect this to be different than main06.py? it adds extra command for pink.
+   - What is happening on line 12? thats the extra code that gets the answer based on the color of pink.
+   - Run the program and answer the question. 
+ - Open main08.py. What is the purpose of line 9? its to show what is supposed to happen when input is not red.
+   - Why are lines 10–17 indented? the are like that to make sure they follow the change from line 9.
+   - Run the program. What would happen if line 10 were moved before line 9 (and no longer indented)? it wouldnt do the part where where it repeats the question because the lines beneath it would be broken.
    - Make that change and run the program again. (To end any Python program, you can type ctrl-c)
- - Open main09.py. What is happening on line 13?
-   - What is the purpose of “count”?
-   - What is happening on line 22?
+ - Open main09.py. What is happening on line 13? keeping track of the times that you have guessed.
+   - What is the purpose of “count”? to see how many tines youve inputted something.
+   - What is happening on line 22? there isnt a line 22?
    - Run the program.
  - *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]).
  - *Extra credit:* open main11.py. What is happening on lines 6-11?
